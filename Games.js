@@ -100,14 +100,14 @@ window.onload = function () {
     game.stage.backgroundColor = "#5db1ad";
 
     //Load images
-    game.load.image("platform", "assets/platform_1.png");
+    game.load.image("platform", "Assets/platform_1.png");
 
     //Load spritesheets
-    game.load.spritesheet("player", "assets/miku hatsune sprite.png", 75, 64);
-    game.load.spritesheet("coin", "assets/coin.png", 36, 44);
-    game.load.spritesheet("badge", "assets/badge.png", 42, 54);
-    game.load.spritesheet("poison", "assets/poison.png", 32,32);
-    game.load.spritesheet("star", "assets/star.png", 32,32);
+    game.load.spritesheet("player", "Assets/miku hatsune sprite.png", 75, 64);
+    game.load.spritesheet("coin", "Assets/coin.png", 36, 44);
+    game.load.spritesheet("badge", "Assets/badge.png", 42, 54);
+    game.load.spritesheet("poison", "Assets/poison.png", 32,32);
+    game.load.spritesheet("star", "Assets/star.png", 32,32);
   }
 
   // initial game set up
